@@ -1,0 +1,113 @@
+
+
+body{
+
+
+
+    margin: 0;
+    padding: 0;
+    background: 
+background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+ 
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+    
+
+section {
+    min-height: 410px;
+}
+
+label{
+    background: transparent;
+    border: 0;
+    color: whitesmoke;
+    padding: 1px 1px;
+    cursor: pointer;
+}
+
+
+
+.dos{
+	color: white;
+    font-size: 2.2em;
+    font-family:monospace;
+    text-align: center;
+     font-weight: 650;
+      background: transparent;
+      border: 2.4px solid white;
+      border-radius: 1px;
+      border-style: inset;
+      border-width: 3px;
+      border-color:transparent transparent snow;
+      text-transform: uppercase;
+      color: white;
+}
+
+.uno{
+    color: white;
+    font-size: 2.2em;
+    font-family:monospace;
+    text-align: center;
+     font-weight: 650;
+      background: transparent;
+      text-transform: uppercase;
+      color: white;
+}
+
+.tres{
+	color: red;
+    font-size: 1.5em;
+    font-family:monospace;
+    text-align: left;
+    font-weight: 350;
+background:#transparent;
+border-style: dashed;
+border: 2.4px solid white;
+    border-radius: 13px;
+    border-width: 1.2px;
+text-transform: initial;
+border-style: inset;
+border-radius: 1px;
+color: whitesmoke;
+
+}
+
+
+.cuatro{
+	color:slategray;
+    font-size: 1.1em;
+    font-family:monospace;
+    text-align: right;
+    font-weight: 350;
+background:#transparent;
+
+ text-transform: uppercase;
+
+}
+.button.gradient {
+      border: 0;
+      outline: 0;
+      background-image: linear-gradient(to top right, #B066FE, #63E2FF);
+      transition: all cubic-bezier(0.215, 0.610, 0.355, 1) .5s;
+    }
+
+    .button.gradient:hover {
+      cursor: pointer;
+      transform: translateY(-3px);
+    }
+
+    .button.gradient:active {
+      transform: translateY(3px);
+    }
+
+
+#resultado{
+    color: whitesmoke;
+    font-family:monospace;
+    font-size: 1.9em;
+   }
